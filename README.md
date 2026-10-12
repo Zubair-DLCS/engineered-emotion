@@ -140,6 +140,3 @@ alongside this repository; its saved results are included.
 - **Content warning:** the ads and tweets include the operation's original divisive content.
 
 ---
-
-*Author: Zubair, PhD student, University of Malakand. Part of a series applying
-signal-forensics thinking to information operations.*
