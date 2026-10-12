@@ -1,0 +1,43 @@
+{
+  "n_train": 43410,
+  "n_dev": 5426,
+  "n_test": 5427,
+  "ensemble_weight_tfidf": 0.7000000000000001,
+  "thresholds": {
+    "anger": 0.25,
+    "disgust": 0.175,
+    "fear": 0.1,
+    "joy": 0.375,
+    "sadness": 0.175,
+    "surprise": 0.225,
+    "neutral": 0.275
+  },
+  "dev_macro_f1": 0.5918025104412531,
+  "glove_coverage": 0.9695672671480274,
+  "test": {
+    "macro_f1": 0.5854432504665397,
+    "macro_precision": 0.5660168114160796,
+    "macro_recall": 0.624193488569692,
+    "per_label_f1": {
+      "anger": 0.5017088174982912,
+      "disgust": 0.4433497536945813,
+      "fear": 0.6280193236714976,
+      "joy": 0.7860627177700349,
+      "sadness": 0.5235732009925558,
+      "surprise": 0.5567423230974633,
+      "neutral": 0.6586466165413534
+    }
+  },
+  "bert_reference": {
+    "anger": 0.57,
+    "disgust": 0.53,
+    "fear": 0.68,
+    "joy": 0.82,
+    "neutral": 0.66,
+    "sadness": 0.59,
+    "surprise": 0.61,
+    "macro": 0.64
+  },
+  "tfidf_only": 0.5928853118770865,
+  "glove_mlp_only": 0.41735728982018705
+}
